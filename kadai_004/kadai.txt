@@ -1,0 +1,34 @@
+ PS C:\Users\beatl\OneDrive\デスクトップ\Web製作関連> # 任意のディレクトリに移動する
+PS C:\Users\beatl\OneDrive\デスクトップ\Web製作関連> cd C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004> # カレントディレクトリ
+にgit_tutorialディレクトリを作成する
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/03/09     22:19                git_challenge
+
+
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004> # 作成したgit_challengeディレクトリに移動する
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004> cd git_challenge
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004\git_challenge> # カレン
+トディレクトリにローカルリポジトリを新規作成する
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004\git_challenge> git init
+Initialized empty Git repository in C:/Users/beatl/OneDrive/繝・せ繧ｯ繝医ャ繝・繝励Ο繧ｰ繝ｩ繝溘Φ繧ｰ繧ｹ繧ｯ繝ｼ繝ｫ/kadai_004/git_challenge/.git/
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004\git_challenge> git add hello_world.txt
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004\git_challenge> git commit -m "hello_world.txtを追加”
+[main (root-commit) a9e6fe2] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004\git_challenge> git add　hello_world.txt
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004\git_challenge> git commit -m "日本語を追記”
+[main 9acbd0f] 譌･譛ｬ隱槭ｒ霑ｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004\git_challenge> git log --oneline
+9acbd0f (HEAD -> main) 日本語を追記
+a9e6fe2 hello_world.txtを追加
+PS C:\Users\beatl\OneDrive\デスクトップ\プログラミングスクール\kadai_004\git_challenge> 
